@@ -67,6 +67,11 @@ explore: orders {
     sql_on: ${orders.user_id} = ${users.id} ;;
     relationship: many_to_one
   }
+
+  query: orders_by_status {
+    dimensions: [orders.status]
+    measures: [orders.count]
+  }
 }
 
 explore: products {}

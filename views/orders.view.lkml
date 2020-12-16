@@ -2,11 +2,15 @@ view: orders {
   sql_table_name: demo_db.orders ;;
   drill_fields: [id]
 
+  filter: metric_selector {}
+  filter: row_limit {}
+
   dimension: id {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
   }
+
 
   dimension_group: created {
     type: time
