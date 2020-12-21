@@ -69,8 +69,10 @@ explore: orders {
   }
 
   query: orders_by_status {
+    label: "Butts"
     dimensions: [orders.status]
     measures: [orders.count]
+    limit: 5
   }
 }
 
