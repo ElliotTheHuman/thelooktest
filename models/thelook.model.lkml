@@ -69,7 +69,7 @@ explore: orders {
   }
 
   query: orders_by_status {
-    label: "Butts"
+    label: "Hello World"
     dimensions: [orders.status]
     measures: [orders.count]
     limit: 5
