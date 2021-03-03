@@ -7,6 +7,7 @@ view: orders {
 
   dimension: id {
     primary_key: yes
+    label: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus erat eu libero aliquet blandit. Sed mauris nisi, ultricies ac orci a, auctor pharetra urna. In id odio nibh. Nunc in magna et lectus posuere venenatis. Nullam tincidunt nunc quis ex tincidunt feugiat. Duis sollicitudin eros non pretium condimentum. Nunc rutrum in ipsum sit amet auctor. Sed ac posuere justo. Aenean iaculis sed metus sit amet pellentesque. Nunc quis nibh vitae dui volutpat hendrerit a et dolor. Vestibulum ultrices nulla eu lectus scelerisque, sed aliquet dui scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra."
     type: number
     sql: ${TABLE}.id ;;
   }
@@ -14,6 +15,7 @@ view: orders {
 
   dimension_group: created {
     type: time
+    label: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus faucibus erat eu libero aliquet blandit. Sed mauris nisi, ultricies ac orci a, auctor pharetra urna. In id odio nibh. Nunc in magna et lectus posuere venenatis. Nullam tincidunt nunc quis ex tincidunt feugiat. Duis sollicitudin eros non pretium condimentum. Nunc rutrum in ipsum sit amet auctor. Sed ac posuere justo. Aenean iaculis sed metus sit amet pellentesque. Nunc quis nibh vitae dui volutpat hendrerit a et dolor. Vestibulum ultrices nulla eu lectus scelerisque, sed aliquet dui scelerisque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum eleifend euismod orci sit amet viverra. Curabitur vitae dignissim enim. Integer euismod malesuada sapien ac cursus."
     timeframes: [
       raw,
       time,
